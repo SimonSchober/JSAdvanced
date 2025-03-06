@@ -1,0 +1,64 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 2rem;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallery-item {
+    max-width: 30%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+.bookmarks {
+    margin-top: 2rem;
+}
+
+.bookmarks h2 {
+    color: #4CAF50;
+}
+
+.bookmarks ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bookmarks li {
+    margin: 0.5rem 0;
+}
+
+.bookmarks a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.bookmarks a:hover {
+    text-decoration: underline;
+}

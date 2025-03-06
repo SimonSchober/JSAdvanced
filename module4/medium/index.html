@@ -9,21 +9,16 @@
 <body>
     <header>
         <h1>My Photo Gallery</h1>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Gallery</a></li>
-            </ul>
-        </nav>
-    </header>                                                //Dieses Projekt ist noch nicht ganz fertig, ich habe aber eine struktur schon aufgebaut
+    </header>
     <main>
-        <section id="gallery">
+        <section id="gallery" class="gallery">
             <picture>
-                <source srcset="" media="(min-width: 800px)">
-                <source srcset="" media="(min-width: 400px)">
+                <img src="../assets/pug-2640386_1280.jpg" alt="First Image" class="gallery-item">
+                <img src="../assets/village-4263755_1280.jpg" media="(min-width: 800px)" alt="Second Image for larger screens" class="gallery-item">
+                <img src="../assets/winter-8612635_1280.jpg" media="(min-width: 400px)" alt="Third Image for medium screens" class="gallery-item">
             </picture>
         </section>
-        <section id="bookmarks">
+        <section id="bookmarks" class="bookmarks">
             <h2>My Favorite Topics</h2>
             <ul>
                 <li><a href="https://www.porsche.com/germany/">Porsche</a></li>
